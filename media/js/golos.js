@@ -6,8 +6,9 @@ jQuery( document ).ready(function() {
 		execGolos();
 	});
 
-	jQuery('.btn post-action__button').click(function
-	);
+	jQuery('.btn post-action__button').click(function(){
+
+	});
 
 	jQuery(".login_form").submit(function(e){
 		console.log('click');
