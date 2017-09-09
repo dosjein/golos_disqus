@@ -6,6 +6,9 @@ jQuery( document ).ready(function() {
 		execGolos();
 	});
 
+	jQuery('.btn post-action__button').click(function
+	);
+
 	jQuery(".login_form").submit(function(e){
 		console.log('click');
 
@@ -29,10 +32,10 @@ function execGolos(){
 
 		if (response.length > 0){
 		    jQuery('.login_form').addClass('hidden');
+		    jQuery('#disqus_thread').show();
 		}else{
 		    console.log('response ned, dan');
 		    jQuery('#disqus_thread').hide();
-
 		    jQuery('.login_form').removeClass('hidden');
 		}
 	});
