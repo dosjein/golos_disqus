@@ -60,13 +60,11 @@ if (DISQUS_DEBUG) {
 
   <div class="container">
     <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username" id="golosu" name="uname" required>
 
     <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <span class="edit-link">
-        <a class="post-edit-link" href="http://blockchain.dev/wp-admin/post.php?post=1&amp;action=edit">Edit<span class="screen-reader-text"> "Hello world!"</span></a>
-    </span>
+    <input type="password" placeholder="Enter Password" id="golosp" name="psw" required>
+
     <button type="submit">Login</button>
   </div>
 </form>

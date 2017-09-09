@@ -1,5 +1,3 @@
-alret('I am in');
-
 var disqus_url = embedVars.disqusUrl;
 var disqus_identifier = embedVars.disqusIdentifier;
 var disqus_container_id = 'disqus_thread';
