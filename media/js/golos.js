@@ -1,6 +1,11 @@
 jQuery( document ).ready(function() {
 	//jQuery('#disqus_thread').remove();
 
+	jQuery("#goloslogout").click(function(){
+		window.name = 'meh';
+		execGolos();
+	});
+
 	jQuery(".login_form").submit(function(e){
 		console.log('click');
 
@@ -20,7 +25,6 @@ jQuery( document ).ready(function() {
 function execGolos(){
 	golos.api.getAccounts([window.name , window.pass], function(err, response){
 
-		console.log(response);
 		console.log(window.name + '&&' + window.pass );
 
 		if (response.length > 0){

@@ -69,6 +69,8 @@ if (DISQUS_DEBUG) {
   </div>
 </form>
 
+<span id='goloslogout'>Golos logout</span>
+
 <?php
 
 global $wp_version;
